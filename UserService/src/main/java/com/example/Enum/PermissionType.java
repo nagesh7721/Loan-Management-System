@@ -1,0 +1,56 @@
+package com.example.Enum;
+
+public enum PermissionType {
+
+	 CREATE_USER,
+	    UPDATE_USER,
+	    DELETE_USER,
+	    VIEW_USER,
+
+	    
+	    CREATE_BRANCH,
+	    UPDATE_BRANCH,
+	    DELETE_BRANCH,
+	    VIEW_BRANCH,
+
+	    
+	    CREATE_ROLE,
+	    UPDATE_ROLE,
+	    DELETE_ROLE,
+	    VIEW_ROLE,
+
+	    
+	    CREATE_PERMISSION,
+	    UPDATE_PERMISSION,
+	    DELETE_PERMISSION,
+	    VIEW_PERMISSION,
+
+	   
+	    CREATE_LOAN_TYPE,
+	    UPDATE_LOAN_TYPE,
+	    DELETE_LOAN_TYPE,
+	    VIEW_LOAN_TYPE,
+
+	    
+	    APPLY_LOAN,
+	    APPROVE_LOAN,
+	    REJECT_LOAN,
+	    VIEW_LOAN_APPLICATION,
+
+
+	    DISBURSE_LOAN,
+	    VIEW_LOAN,
+
+
+	    GENERATE_EMI,
+	    VIEW_EMI,
+
+
+	    MAKE_PAYMENT,
+	    VIEW_PAYMENT,
+
+
+	    VIEW_REPORTS
+	
+	
+}
